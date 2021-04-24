@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.logo-header{
+    width: 80px;
+}
+
+
+    /* Menú */ 
+
+
+.logo-header{
+    width: 80px;
+    vertical-align: middle;
+}
+
+.menu-general {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    z-index: 30;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 48px;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.menu-header li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style:none
+}
+
+.menu-header li a{
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+}
+
+.menu-header li a:hover {
+    color: #86A0EA;
+}
+
+section{
+    margin-top: 120px;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+
+    /* Detalles culturas */ 
+
+
+.box-right {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-left {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-culturas{
+    width: 35%;
+    height: 100%;
+}
+
+.data-culturas{
+    width: 45%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.data-culturas h4 {
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    color: rgba(255, 255, 255, 0.5);;
+}
+
+.data-culturas h2 {
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 48px;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+}
+
+.data-culturas h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    letter-spacing: 0.2em;
+}
+
+.list-jedi{
+   list-style: none;
+   padding: 12px;
+   width: 120px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-right: 10px;
+   border-radius: 8px;
+   text-align: center;
+   color: white;
+   border: 1px solid #86A0EA;
+}
+
+.list-wookiees{
+    list-style: none;
+    padding: 12px;
+    width: 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    border: 1px solid #2C4D3D;
+ } 
+
+ .list-zeffos{
+    list-style: none;
+    padding: 12px;
+    width: 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    border: 1px solid #C18030;
+ } 
+
+ .list-hermanas{
+    list-style: none;
+    padding: 12px;
+    width: 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    border: 1px solid #C11111;
+ }
+ 
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+    /* Footer */ 
+
+
+ footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 80px;
+    margin: 24px 48px;
+}
+
+.redes{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.redes-grupo {
+    position: absolute;
+    right: 0%;
+    bottom: 30%;
+    width: 300px;
+    
+}
+
+.redes-grupo li {
+    list-style: none;
+    display: inline;
+    margin: 0px 8px;
+
+}
+
+.redes-image{
+    width: 20px;
+    margin: 8px;
+}
+
+
+    /* Responsive */ 
+
+
+@media (max-width:1024px){
+
+    .burger {
+        display: block;
+        width: 32px;
+    }
+
+    nav {
+        position: absolute;
+        display: block;
+        background-color: black;
+        top: 100px;
+        width: 100%;
+        height: 300px;
+        right: -100%;
+        transition: all 0.5s;
+    }
+
+    .menu-header {
+        flex-direction: column;
+    }
+
+    .menu-header li{
+        margin: 18px;
+        margin-right: 24px;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    #btn-menu:checked ~ nav{
+        right: 0%;
+    }
+
+    .data-culturas{
+        width: 35%;
+    }
+
+} 
+
+@media (max-width: 780px) {
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .box-right {
+        flex-direction: column;
+    }
+
+    .box-left {
+        flex-direction: column;
+    }
+    
+    .img-culturas{
+        width: 60%;
+        height: 100%;
+        display: block;
+    }
+
+    .data-culturas{
+        width: 76%;
+    }
+
+    .list-jedi{ 
+        font-size: 12px;
+        width: 90px;
+        margin-bottom: 12px;
+    }
+
+    .list-wookiees {
+        font-size: 12px;
+        width: 90px;
+        margin-bottom: 12px;
+    }
+
+    .list-hermanas {
+        font-size: 12px;
+        width: 90px;
+        margin-bottom: 12px;
+    }
+    
+    .list-zeffos {
+        font-size: 12px;
+        width: 90px;
+        margin-bottom: 12px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .data-culturas h2 {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+        letter-spacing: 0em;
+    }
+
+    .data-culturas{
+        width: 80%;
+    }
+    
+}

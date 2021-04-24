@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+
+    /* Menú */ 
+
+
+.logo-header{
+    width: 80px;
+}
+
+.menu-general {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    z-index: 30;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 48px;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.menu-header li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style:none
+}
+
+.menu-header li a{
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+}
+
+.menu-header li a:hover {
+    color: #86A0EA;
+}
+
+section{
+    margin-top: 100px;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+    /* Boxes con juegos */ 
+
+
+section{
+    margin-top: 100px;
+}
+
+.tienda {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 370px 370px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    padding: 48px;
+}
+
+
+.compras{
+    border-radius: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.juego{
+    width: 150px;
+    margin: 16px 27%;
+}
+
+.compras h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.compras h5{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.compras button{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #86A0EA;
+    font-weight: 600;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 120px;
+    border: 1px solid #86A0EA;
+    margin: 0 31%;
+    margin-bottom: 24px;
+}
+
+.compras button:hover {
+    background-color: #393939;
+}
+
+
+    /* Modal tiendas */ 
+
+
+.marcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marcas-img {
+    width: auto;
+    height: 25px;
+}
+
+.marcas-button {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 120px;
+    color: #86A0EA;
+    border: 1px solid #86A0EA;
+}
+
+.marcas-button a {
+    text-decoration: none;
+    color: #86A0EA;
+}
+
+.marcas-button:hover {
+    background-color: rgba(134, 160, 234, 0.1);
+}
+
+
+.cancel-button {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3B3F51;
+    font-weight: 600;
+    border-radius: 16px;
+    background-color: #DADADA;
+    height: 40px;
+    width: 120px;
+    border: none;
+}
+
+.cancel-button:hover {
+    background-color: #C9C9C9;
+    color: #3B3F51;
+}
+
+.spinner-jedi {
+    display: none;
+}
+
+.marcas-button:active .spinner-jedi{
+    display: inline-block
+}
+
+
+    /* Footer */ 
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 80px;
+    margin: 24px 48px;
+}
+
+.redes{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.redes-grupo {
+    position: absolute;
+    right: 0%;
+    bottom: 30%;
+    width: 300px;
+    
+}
+
+.redes-grupo li {
+    list-style: none;
+    display: inline;
+    margin: 0px 8px;
+
+}
+
+.redes-image{
+    width: 20px;
+    margin: 8px;
+}
+
+    /* Responsive */ 
+
+
+@media (max-width:1024px){
+
+    .burger {
+        display: block;
+        width: 32px;
+    }
+
+    nav {
+        position: absolute;
+        display: block;
+        background-color: black;
+        top: 100px;
+        width: 100%;
+        height: 300px;
+        right: -100%;
+        transition: all 0.5s;
+    }
+
+    .menu-header {
+        flex-direction: column;
+    }
+
+    .menu-header li{
+        margin: 18px;
+        margin-right: 24px;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    #btn-menu:checked ~ nav{
+        right: 0%;
+    }
+
+    .tienda {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 370px 370px;
+    }
+
+} 
+
+@media (max-width: 780px) {
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .tienda {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 370px 370px 370px;
+    }    
+
+}
+
+
+@media (max-width: 600px) {
+
+    .tienda {
+        grid-template-columns: 1fr;
+        grid-template-rows: 370px 370px 370px 370px 370px 370px;
+    }   
+}

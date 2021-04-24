@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+
+    /* Menú */ 
+
+
+.logo-header{
+    width: 80px;
+    vertical-align: middle;
+}
+
+.menu-general {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    z-index: 30;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 48px;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.menu-header li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style:none
+}
+
+.menu-header li a{
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+}
+
+.menu-header li a:hover {
+    color: #86A0EA;
+}
+
+section{
+    margin-top: 100px;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+
+    /* Banner planetas */ 
+
+
+.banner {
+    position: relative;
+}
+
+.banner a{
+    text-decoration:none;
+}
+
+.position-kashyyyk {
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    height: 200px;
+    width: 160px;
+    text-align: center;
+}
+
+.position-dathomir {
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+.position-bogano {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+
+}
+
+.position-bracca {
+    position: absolute;
+    top: 23%;
+    left: 63.5%;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+.position-zeffo {
+    position: absolute;
+    top: 13%;
+    left: 83%;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+}
+
+.name-planet{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #86A0EA;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+}
+
+.name-planet:hover {
+    font-weight: 400;
+}
+
+
+    /* Descripción planetas */ 
+
+
+.box-planet{
+    position: relative;
+    margin-top: -5px;
+}
+
+.info-planet{
+    width: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    margin: 48px;
+    line-height: 20px;
+}
+
+.info-planet h4{
+    font-weight: lighter;
+    margin-bottom: 16px;
+    letter-spacing: 0.2em;
+}
+
+.info-planet h2{
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: 0.2em;
+}
+
+.info-planet {
+    width: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    margin: 48px;
+    line-height: 20px;
+}
+
+.kashyyyk-text {
+    position: absolute;
+    top: 30%;
+}
+
+.dathomir-text {
+    position: absolute;
+    top: 20%;
+    right: 48px;
+}
+
+.bogano-text {
+    position: absolute;
+    top: 30%;
+}
+
+.bracca-text {
+    position: absolute;
+    top: 25%;
+    right: 48px;
+}
+
+.zeffo-text {
+    position: absolute;
+    top: 25%;
+}
+
+
+    /* Footer */ 
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 80px;
+    margin: 24px 48px;
+}
+
+.redes{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.redes-grupo {
+    position: absolute;
+    right: 0%;
+    bottom: 30%;
+    width: 300px;
+    
+}
+
+.redes-grupo li {
+    list-style: none;
+    display: inline;
+    margin: 0px 8px;
+
+}
+
+.redes-image{
+    width: 20px;
+    margin: 8px;
+}
+
+
+    /* Responsive */ 
+
+
+@media (max-width:1024px){
+
+    .burger {
+        display: block;
+        width: 32px;
+    }
+
+    nav {
+        position: absolute;
+        display: block;
+        background-color: black;
+        top: 100px;
+        width: 100%;
+        height: 300px;
+        right: -100%;
+        transition: all 0.5s;
+    }
+
+    .menu-header {
+        flex-direction: column;
+    }
+
+    .menu-header li{
+        margin: 18px;
+        margin-right: 24px;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    #btn-menu:checked ~ nav{
+        right: 0%;
+    }
+
+    .position-kashyyyk {
+        left: 5%;
+    }
+    
+    .position-dathomir {
+        left: 18%;
+    }
+    
+    .position-bogano {
+        left: 32%;
+    }
+    
+    .position-bracca {
+        left: 61.5%;
+    }
+    
+    .position-zeffo {
+        left: 81%;
+    }
+
+    .kashyyyk-text {
+        top: 20%;
+    }
+    
+    .dathomir-text {
+        top: 8%;
+    }
+    
+    .bogano-text {
+        top: 22%;
+    }
+    
+    .bracca-text {
+        top: 20%;
+    }
+    
+    .zeffo-text {
+        top: 14%;
+    }
+
+} 
+
+@media (max-width: 780px) {
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .box-planet{
+        height: 500px;
+        width: 100%;
+    }
+
+    .img-planet {
+        object-fit: cover;
+        object-position: center;
+        height: 50vh;
+    }
+
+    .position-kashyyyk {
+        left: 2%;
+    }
+    
+    .position-dathomir {
+        left: 15%;
+    }
+    
+    .position-bogano {
+        left: 27%;
+    }
+    
+    .position-bracca {
+        left: 58.5%;
+    }
+    
+    .position-zeffo {
+        left: 78%;
+    }
+
+    .name-planet{
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .position-kashyyyk {
+        display: none;
+    }
+    
+    .position-dathomir {
+        display: none;
+    }
+    
+    .position-bogano {
+        display: none;
+    }
+    
+    .position-bracca {
+        display: none;
+    }
+    
+    .position-zeffo {
+        display: none;
+    }
+
+    .box-planet{
+        height: 600px;
+        width: 100%;
+    }
+
+    .img-planet {
+        object-fit: cover;
+        object-position: center;
+        height: 90vh;
+    }
+
+    .info-planet{
+        width: 80%;
+    }
+
+    .dathomir-text {
+        right: 0px;
+    }
+    
+    .bracca-text {
+        right: 0px;
+    }
+
+}
