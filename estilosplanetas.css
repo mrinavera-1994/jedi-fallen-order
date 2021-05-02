@@ -55,6 +55,12 @@ img {
     margin: 24px;
 }
 
+.underline {
+    border-bottom: 3px solid #86A0EA;
+    padding-bottom: 5px;
+    font-weight: 600px;
+}
+
 .menu-header li a:hover {
     color: #86A0EA;
 }
@@ -422,6 +428,10 @@ footer {
 
     .info-planet{
         width: 80%;
+    }
+
+    .info-planet h2 {
+        font-size: 40px;
     }
 
     .dathomir-text {

@@ -58,6 +58,12 @@ img {
     margin: 24px;
 }
 
+.underline {
+    border-bottom: 3px solid #86A0EA;
+    padding-bottom: 5px;
+    font-weight: 600px;
+}
+
 .menu-header li a:hover {
     color: #86A0EA;
 }
