@@ -56,6 +56,7 @@ img {
     color: white;
     text-decoration: none;
     margin: 24px;
+    transition: 0.3s;
 }
 
 .underline {
@@ -116,6 +117,7 @@ section{
     font-weight: lighter;
     font-size: 14px;
     line-height: 20px;
+    position: relative;
 }
 
 .data-culturas h4 {
@@ -133,6 +135,31 @@ section{
     line-height: 60px;
 }
 
+.border-banner {
+    border-bottom: solid 0.5px white;
+    animation-name: borde;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    position: absolute;
+    top: 23%;
+}
+
+@keyframes borde {
+    0% { width: 80px; }
+    50% { width: 100px; }
+    100% { width: 80px; }
+}
+
+.border-zeffos {
+    top: 25%; 
+}
+
+.border-hermanas {
+    top: 42%;
+}
+
 .data-culturas h3 {
     font-size: 20px;
     font-weight: 400;
@@ -146,6 +173,7 @@ section{
    width: 120px;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    margin-right: 10px;
+   margin-bottom: 10px;
    border-radius: 8px;
    text-align: center;
    color: white;
@@ -158,6 +186,7 @@ section{
     width: 120px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
     text-align: center;
     color: white;
@@ -170,6 +199,7 @@ section{
     width: 120px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
     text-align: center;
     color: white;
@@ -182,6 +212,7 @@ section{
     width: 120px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
     text-align: center;
     color: white;
@@ -280,6 +311,18 @@ section{
         width: 35%;
     }
 
+    .border-banner {
+        top: 16%;
+    }
+
+    .border-zeffos {
+        top: 18%; 
+    }
+
+    .border-hermanas {
+        top: 39%;
+    }
+
 } 
 
 @media (max-width: 780px) {
@@ -334,6 +377,18 @@ section{
         margin-bottom: 12px;
     }
 
+    .border-banner {
+        top: 22%;
+    }
+
+    .border-zeffos {
+        top: 24%; 
+    }
+
+    .border-hermanas {
+        top: 38%;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -347,6 +402,18 @@ section{
 
     .data-culturas{
         width: 80%;
+    }
+
+    .border-banner {
+        top: 13%;
+    }
+
+    .border-zeffos {
+        top: 16%; 
+    }
+
+    .border-hermanas {
+        top: 30%;
     }
     
 }

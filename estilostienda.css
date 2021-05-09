@@ -51,6 +51,7 @@ img {
     color: white;
     text-decoration: none;
     margin: 24px;
+    transition: 0.3s;
 }
 
 .underline {
@@ -138,6 +139,7 @@ section{
     border: 1px solid #86A0EA;
     margin: 0 31%;
     margin-bottom: 24px;
+    transition: 0.3s;
 }
 
 .compras button:hover {

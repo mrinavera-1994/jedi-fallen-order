@@ -51,6 +51,7 @@ img {
     color: white;
     text-decoration: none;
     margin: 24px;
+    transition: 0.3s;
 }
 
 .underline {
@@ -109,7 +110,7 @@ section{
 
 
 @keyframes titulo {
-    0% { opacity: 0%; }
+    0% { opacity: 5%; }
     100% { opacity: 100%; }
 }
 
@@ -219,6 +220,7 @@ section{
     width: 120px;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .reel-button:hover {
@@ -315,6 +317,7 @@ section{
     width: 120px;
     border: 1px solid #86A0EA;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .compras-button a {
@@ -448,6 +451,7 @@ form label {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .form-button:hover {
@@ -620,7 +624,7 @@ footer {
     }
 
     .text-name {
-        margin-top: 24px;
+        margin-top: 16px;
     }
 
     .compras-image {

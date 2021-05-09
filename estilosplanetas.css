@@ -53,6 +53,7 @@ img {
     color: white;
     text-decoration: none;
     margin: 24px;
+    transition: 0.3s;
 }
 
 .underline {
